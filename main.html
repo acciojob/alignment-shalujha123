@@ -1,65 +1,82 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Tables</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
-</body>
-<table>
-    <tr class="header">
-      <td colspan="3">HTML Assignment #3</td>
+  <!-- First Table -->
+  <table id="table-1" class="middle">
+    <tr>
+      <td id="t11">left</td>
+      <td id="t12" class="center">center</td>
+      <td id="t13" class="right">right</td>
     </tr>
     <tr>
-      <td align="left">left</td>
-      <td align="center">center</td>
-      <td align="right">right</td>
+      <td>left</td>
+      <td class="center">center</td>
+      <td class="right">right</td>
     </tr>
     <tr>
-      <td align="left">left</td>
-      <td align="center">center</td>
-      <td align="right">right</td>
-    </tr>
-    <tr>
-      <td align="left">left</td>
-      <td align="center">center</td>
-      <td align="right">right</td>
+      <td>left</td>
+      <td class="center">center</td>
+      <td class="right">right</td>
     </tr>
   </table>
 
   <br>
 
-  <table>
+  <!-- Second Table -->
+  <table id="table-2" class="middle">
+    <tr>
+      <td id="t21" colspan="6"></td>
+    </tr>
     <tr>
       <td rowspan="2"></td>
+      <td colspan="2"></td>
+      <td colspan="3"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td colspan="5"></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </table>
+
+  <br>
+
+  <!-- Third Table -->
+  <table id="table-3" class="middle">
+    <tr class="green">
       <td colspan="2"></td>
     </tr>
     <tr>
       <td></td>
-      <td></td>
-    </tr>
-    <tr>
-      <td colspan="3"></td>
-    </tr>
-  </table>
-
-  <br>
-
-  <div class="green-bar"></div>
-  <table>
-    <tr>
-      <td style="width: 50%;"></td>
-      <td class="image-cell" style="width: 50%;">
-        <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Basketball Dunk">
+      <td id="t-image">
+        <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg" alt="Basketball Dunk" ">
       </td>
     </tr>
+    <tr class="blue">
+      <td colspan="2"></td>
+    </tr>
   </table>
-  <div class="blue-bar"></div>
 
+</body>
 </html>
