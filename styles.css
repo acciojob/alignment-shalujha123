@@ -1,29 +1,27 @@
 /*  your css code here. If applicable */
-table{
-	border: 1px solid;
-	border-collapse: collapse;
-}
-
-.middle {
-            border: 1px solid black;
-            border-spacing: 1px;
-            padding: 1px;
-            width: 50%;
-            margin: auto;
-            text-align: left;
-        }
-        .center {
-            text-align: center;
-        }
-        .right {
-            text-align: right;
-        }
-        .green {
-            background-color: green;
-        }
-        .blue {
-            background-color: blue;
-        }
-        h1 {
-            text-align: center;
-        }
+<style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+    .header {
+      text-align: center;
+      font-weight: bold;
+    }
+    .green-bar {
+      background-color: green;
+      height: 20px;
+    }
+    .blue-bar {
+      background-color: blue;
+      height: 20px;
+    }
+    .image-cell img {
+      width: 100%;
+      height: auto;
+    }
+  </style>
